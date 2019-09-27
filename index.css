@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+}
+
+.container {
+    height: 600px;
+    width: 320px;
+    background-color: #f5f4f6;
+    border-radius: 15px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: -10px 20px 40px rgb(82, 82, 82,.4);
+}
+
+.container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    color: #464449;
+    font-weight: bold;
+}
+
+.container #result {
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50px;
+    color: #9d9c9c;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    /*overflow: scroll;*/
+}
+
+.container #input {
+    width: 90%;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.container #keyboard {
+    background-color: white;
+    max-width: 88%;
+    height: 63.5%;
+    border-radius: 15px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: absolute;
+    top: 200px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.container #keyboard button {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 6px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.blank {
+    visibility: hidden;
+}
+
+.container #keyboard .number {
+    background: none;
+    color: black;
+}
+.container #keyboard .number:active {
+    background-color: rgb(216, 212, 212); 
+    outline: none;
+    font-size: 20px;
+}
+
+.container #keyboard .operator:active {
+    outline: none;
+    font-size: 20px;
+}
+
+.container #keyboard :nth-child(1){
+    background-color: rgb(216, 212, 212);    
+}
+
+.container #keyboard :nth-child(2){
+    background-color: rgb(216, 212, 212);    
+}
+
+.container #keyboard :nth-child(3){
+    background-color: rgb(216, 212, 212);    
+}
+
+.container #keyboard :nth-child(4){
+    background-color: rgb(216, 212, 212);    
+}
+
+.container #keyboard :nth-child(8){
+    background-color: rgb(182, 224, 235);    
+}
+
+.container #keyboard :nth-child(12){
+    background-color: rgb(255, 192, 82);    
+}
+
+.container #keyboard :nth-child(16){
+    background-color: rgb(195, 245, 170);    
+}
+/*this is the period 4 decimal*/
+.container #keyboard :nth-child(19){
+    background: none;
+    font-weight: bold; 
+}
+
+.container #keyboard :nth-child(19):active{
+    background-color: rgb(216, 212, 212); 
+    outline: none;
+    font-size: 20px;
+}
+
+.container #keyboard :nth-child(20){
+background-color: rgb(235, 182, 229);    
+}
+
+.container #keyboard :last-child { 
+    margin: 13px 0 13px 25px;
+    width: 85%;
+    background-color: rgb(193, 237, 193);
+}
+
